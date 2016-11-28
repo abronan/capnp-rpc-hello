@@ -1,0 +1,14 @@
+[package]
+name = "hello"  
+version = "0.1.0"  
+authors = ["Name Surname <name@surname.com>"]
+build = "build.rs"
+
+[build-dependencies]
+capnpc = "0.7.2"
+
+[dependencies]
+capnp = "0.7.4"  
+capnp-rpc = "0.7.4"  
+gj = "0.2"  
+gjio = "0.1"
